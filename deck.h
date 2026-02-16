@@ -4,10 +4,15 @@
 #include "card.h"
 
 class Deck {
-  std::vector<Card> _cards{};
-
  public:
-  Deck();
+  Deck(int size);
 
   void Print();
+  Card Deal();
+  void Shuffle();
+
+ private:
+  const int deck_size;
+  int card_index{0};
+  std::vector<Card> _cards{};
 };
