@@ -8,8 +8,8 @@
         "-fdiagnostics-color=always",
         "-g",
         "main.cpp",
-        "cards.cpp",
-        "monster.cpp",
+        "card.cpp",
+        "deck.cpp",
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],
